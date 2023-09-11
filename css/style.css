@@ -4251,6 +4251,16 @@ body::after {
   display: none !important;
 }
 
+.swiper-horizontal {
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+
+.swiper-vertical {
+  -ms-touch-action: pan-x;
+      touch-action: pan-x;
+}
+
 @media (min-width: 29.99875em) {
 @supports (padding-left: clamp( 1.25rem , -27.8885135135rem  +  37.2972972973vw , 9.875rem )) {
     .body-header__search {
